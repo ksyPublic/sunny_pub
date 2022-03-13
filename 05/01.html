@@ -1,0 +1,340 @@
+<? require "../inc/header.html"; ?>
+
+
+<!-- sub_top -->
+<div class="sub_top por">
+	<div class="sub_visual visual05">
+    	<div class="inner">
+            <div class="sub_tit">
+                <div class="sut01" data-aos="fade-right" data-aos-delay="200">후원&middot;자원봉사 안내</div>
+                <div class="sut02" data-aos="fade-right" data-aos-delay="300">선의와 함께 의미있는 따뜻한 실천</div>
+            </div>
+        </div>
+    </div> <!-- //sub_visual -->
+    
+    <div class="sub_location">
+    	<div class="inner por">
+            <a href="#" class="home poa">home</a>
+            <ul class="row sub_menu">
+                <li class="u3 sub_1depth">
+                	<a href="#" class="sd_txt" onClick="javascript:return false;">재단소개 <i class="sl_state"></i></a>
+                    <ul class="sub_hidden">
+                    	<li><a href="#" class="act">재단소개</a></li>
+                        <li><a href="#">선의요양병원</a></li>
+                        <li><a href="#">사회공헌사업</a></li>
+                        <li><a href="#">재단소식</a></li>
+                        <li><a href="#">후원&middot;자원봉사 안내</a></li>
+                    </ul>
+                </li>
+                <li class="u3 sub_2depth">
+                	<a href="#" class="sd_txt" onClick="javascript:return false;">후원신청 <i class="sl_state"></i></a>
+                    <ul class="sub_hidden">
+                    	<li><a href="#">후원신청</a></li>
+                        <li><a href="#">자원봉사신청</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div> <!-- //sub_location-->
+</div>    
+<!-- //sub_top -->
+
+
+<!-- contianer { -->
+<div id="container">
+	
+    <!-- sub_wrap -->
+	<div class="sub_wrap bkc02 pb100 volu_contents">
+    	<div class="sc_tit">후원신청</div>
+        <div class="sub_contents">
+        
+        	<div class="volu_form_wrap">
+            	<div class="volu_form volu01 bkc03 bxs01 mb40">
+                	<div class="volu_txt p_color f400 ft28 por">개인정보 입력<span class="ft14 fwb poa volu_info"><img src="../images/sub/ng_dot.png" alt="">아래 정보는 필수입력 항목입니다.</span></div>
+                    
+                    <ul class="volu_list">
+                    	<li>
+                        	<div class="volu_tit ft18 f400">성명</div>
+                            <div class="volu_input"><input type="text" title="성명"></div>
+                        </li>
+                        
+                        <li>
+                        	<div class="volu_tit ft18 f400">생년월일</div>
+                            <div class="volu_input volu_select">
+                            	<ul class="row clr">
+                                	<li class="u3">
+                                        <div class="nts_select" id="kst_sel">
+                                            <label for="m1" class="ft16">년</label>
+                                            <select id="m1">
+                                                <option>2019</option>
+                                                <option>2018</option>
+                                                <option>2017</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="u3">
+                                        <div class="nts_select" id="kst_sel">
+                                            <label for="m1" class="ft16">월</label>
+                                            <select id="m1">
+                                                <option>1월</option>
+                                                <option>2월</option>
+                                                <option>3월</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="u3">
+                                        <div class="nts_select" id="kst_sel">
+                                            <label for="m1" class="ft16">일</label>
+                                            <select id="m1">
+                                                <option>1일</option>
+                                                <option>2일</option>
+                                                <option>3일</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li>
+                        	<div class="volu_tit ft18 f400">나이</div>
+                            <div class="volu_input volu_select">
+                            	<div class="nts_select" id="kst_sel">
+                                    <label for="m1" class="ft16">선택</label>
+                                    <select id="m1">
+                                        <option>20</option>
+                                        <option>19</option>
+                                        <option>18</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                        	<div class="volu_tit ft18 f400">연락처</div>
+                            <div class="volu_input"><input type="text" title="연락처" placholder="‘-’ 넣어서 입력 (ex : 010-1234-5678)"></div>
+                        </li>
+                        
+                        <li>
+                        	<div class="volu_tit ft18 f400">소속단체명</div>
+                            <div class="volu_input"><input type="text" title="소속단체명"></div>
+                        </li>
+                        
+                        <li>
+                        	<div class="volu_tit ft18 f400">주소</div>
+                            <div class="volu_input">
+                            	<ul>
+                                	<li class="mb12">
+                                    	<div class="por">
+                                        	<div class="add_text"><input type="text" title="주소" class="bkc02"></div>
+                                            <a href="#" class="add_btn ft18 f400 c00 tac trh poa">우편번호 찾기</a>
+                                        </div>
+                                   	</li>
+                                    <li class="mb12"><input type="text" title="주소" class="bkc02"></li>
+                                    <li><input type="text" title="상세주소 입력" placeholder="상세주소 입력"></li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        
+                    </ul> <!-- //volu_list -->
+                </div> <!-- //volu01 -->
+                
+                <script>
+				$(function(){
+					$('.volu_agree_txt').hide();
+					$(".volu_agree_btn").click(function(){
+						$(".volu_agree_txt").slideUp();
+						$(".volu_agree_btn").removeClass('ag');
+						if(!$(this).next('.volu_agree_txt').is(":visible"))
+						{
+							$(this).next('.volu_agree_txt').slideDown();
+							$(this).addClass('ag');
+						}
+					})
+	
+				});
+				</script>
+                
+                
+                <div class="volu_form volu02 bkc03 bxs01 mb40">
+                	<div class="por volu_agree">
+                        <div class="ck_box por"><input type="checkbox" name="c01" id="c01"><label for="c01">개인정보 수집 및 이용안내 동의</label></div>
+                        <a href="#none" onClick="javascript:return false;" class="volu_agree_btn poa"></a>
+                        
+                        <div class="volu_agree_txt">
+                        	<ul class="ft14 c02 lh17 mb30">
+                            	<li><span class="fwb">1. 개인정보의 수집이용 목적 :</span> 자원봉사자 활동관리 (모집, 교육, 배치, 활동, 관리 등) 및 자원봉사자 실적입력 (1365 자원봉사센터) </li>
+                                <li><span class="fwb">2. 수집하려는 개인정보 항목 :</span> 성명, 생년월일, 성별, 연락처, 주소, 소속단체명  </li>
+                                <li><span class="fwb">3. 개인정보의 보유 및 이용기간 :</span> 자원봉사활동 마감시까지  </li>
+                                <li><span class="fwb">4. 개인정보 수집동의 거부의 권리 </span></li>
+                            </ul>
+                            
+                            <div class="ft14 c02 lh17 mb30">
+                            의료법인 선의의료재단은 개인정보보호법 제 15조에 의거하여 개인정보를 수집‧이용하고 있으며, 위 수집항목에 대한 정보 제공을 
+원치 않을 경우, 자원봉사활동 및 실적관리에 제한이 있을 수 있습니다. 
+                            </div>
+                            
+                            <div class="ft14 c02 lh17">
+                            ‘사회복지사업법시행령 제25조의2 (민감정보 및 고유식별정보의 처리)’에 의거, 자원봉사 활동을 위해 작성한 자원봉사자 신청서의 
+개인정보를 취급하는 것을 동의하십니까?
+                            </div>
+                        </div>
+                    </div>  
+                </div> <!-- //volu02 -->
+                
+                <div class="volu_form volu03 bkc03 bxs01 mb40">
+                	  <div class="volu_txt p_color f400 ft28">후원신청 정보</div>
+                      <ul class="volu_list">
+                    	<li>
+                        	<div class="volu_tit ft18 f400">후원 경험</div>
+                            <div class="volu_input">
+                            	<ul class="row radio_list">
+                                	<li class="u2">
+                                    	<div class="rd_box por"><input type="radio" name="r01" id="r01"><label for="r01">있음</label></div>
+                                    </li>
+                                    <li class="u2">
+                                    	<div class="rd_box por"><input type="radio" name="r01" id="r02"><label for="r02">없음</label></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="gab">
+                        	<div class="volu_tit ft18 f400">기간</div>
+                            <div class="volu_input">
+                            	<ul class="row radio_list">
+                                	<li class="u2">
+                                    	<div class="rd_box por"><input type="radio" name="j01" id="j01"><label for="j01">정기</label></div>
+                                    </li>
+                                    <li class="u2">
+                                    	<div class="rd_box por"><input type="radio" name="j01" id="j02"><label for="j02">비정기</label></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="inc">
+                        	<div class="volu_tit ft18 f400">요일 <span class="ft14 fwb p_color">(중복선택 가능)</span></div>
+                            <div class="volu_input">
+                            	<ul class="row ch_list">
+                                	<li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w01" id="w01"><label for="w01">월요일</label></div>
+                                    </li>
+                                    <li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w02" id="w02"><label for="w02">화요일</label></div>
+                                    </li>
+                                    <li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w03" id="w03"><label for="w03">수요일</label></div>
+                                    </li>
+                                    <li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w04" id="w04"><label for="w04">목요일</label></div>
+                                    </li>
+                                    <li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w05" id="w05"><label for="w05">금요일</label></div>
+                                    </li>
+                                    <li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w06" id="w06"><label for="w06">토요일</label></div>
+                                    </li>
+                                    <li class="u4 m3">
+                                    	<div class="wk_box por"><input type="radio" name="w07" id="w07"><label for="w07">일요일</label></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="inc">
+                        	<div class="volu_tit ft18 f400">시간 <span class="ft14 fwb p_color">(중복선택 가능)</span></div>
+                            <div class="volu_input">
+                            	<ul class="row ch_list">
+                                	<li class="u4 m2">
+                                    	<div class="wk_box por"><input type="radio" name="p01" id="p01"><label for="p01">오전(09-12시)</label></div>
+                                    </li>
+                                    <li class="u4 m2">
+                                    	<div class="wk_box por"><input type="radio" name="p02" id="p02"><label for="p02">오후(13-17시)</label></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- //volu03 -->
+                
+                <div class="volu_form volu04 bkc03 bxs01 mb40">
+                	  <div class="volu_txt p_color f400 ft28 por">분야<span class="ft14 fwb poa volu_info"><img src="../images/sub/ng_dot.png" alt="">중복선택 가능</span></div>
+                      <ul class="volu_list bun_list row">
+                        <li class="inc u2 m1">
+                        	<div class="volu_tit ft18 f400">선의의료재단</div>
+                            <div class="volu_input">
+                            	<ul class="ch_list">
+                                	<li>
+                                    	<div class="wk_box por"><input type="radio" name="s01" id="s01"><label for="s01">통역 (영어, 필리핀, 베트남, 태국어 등)</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="s02" id="s02"><label for="s02">심장병 환아 병문안 및 관광일정 보조</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="s03" id="s03"><label for="s03">사진촬영</label></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="inc u2 m1">
+                        	<div class="volu_tit ft18 f400">선의요양병원</div>
+                            <div class="volu_input">
+                            	<ul class="ch_list">
+                                	<li>
+                                    	<div class="wk_box por"><input type="radio" name="z01" id="z01"><label for="z01">노력봉사 (휠체어 산책, 목욕·식사·거동보조)</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="z02" id="z02"><label for="z02">전문봉사 (이미용서비스, 손발톱정리, 발마사지)</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="z03" id="z03"><label for="z03">정서지원 (말벗, 산책보조, 책 읽어드리기)</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="z04" id="z04"><label for="z04">프로그램 진행 및 보조 (미술·음악·원예치료, 종이접기 등)</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="z05" id="z05"><label for="z05">행정보조 (행정서류관련 업무보조)</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><input type="radio" name="z06" id="z06"><label for="z06">기타</label></div>
+                                    </li>
+                                    <li>
+                                    	<div class="wk_box por"><textarea></textarea></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- //volu04 -->
+                
+                <div class="volu_bottom">
+                	<div class="ft20 f400 tac">선의의료재단은 <span class="p_color">1365 자원봉사포털 인증기관</span>으로 1365를 통해 <span class="p_color">자원봉사 실적 확인서 발급이 가능</span>합니다.</div>
+                    <div class="sub_btn tac pt60">
+                    	<a href="#" class="trh tac dsi c00 br50 btns btns01 ft18 fwb mr30">신청</a>
+                        <a href="#" class="trh tac dsi c00 br50 btns btns02 ft18 fwb">취소</a>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+            </div> <!-- //volu_form_wrap -->
+            
+        </div>
+    </div><!-- //sub_wrap -->
+    
+</div>
+<!-- } contianer -->
+
+<script type="text/javascript">
+$(function(){AOS.init({   easing: 'ease-in-out-sine', duration: 800, once : true });});
+</script>
+
+<?	require "../inc/footer.html";  ?>
+

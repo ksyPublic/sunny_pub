@@ -1,0 +1,613 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+
+.fnsr {font-family: 'Noto Serif KR';}
+.ft50 {font-size:50px;}
+.ft46 {font-size:46px;}
+.ft38 {font-size:38px;}
+.ft32 {font-size:32px;}
+.ft30 {font-size:30px;}
+.ft28 {font-size:28px;}
+.ft26 {font-size:26px;}
+.ft24 {font-size:24px;}
+.ft20 {font-size:20px;}
+.ft18 {font-size:18px;}
+.ft16 {font-size:16px;}
+.ft14 {font-size:14px;}
+
+.pt100 {padding-top:100px;}
+
+/**/
+/*#header {border-bottom:0px;}*/
+.m_tit {color:#ffffff; font-size:44px; /*margin-top:101px;*/ padding-top:101px;}
+.m_tit > .tmw {font-size:34px;}
+.s3 .m_tit {color:#131313;}
+
+
+/* main */
+.section.s2 {background:url('../images/main/s2.jpg') center center no-repeat; background-size:cover;}
+.section.s3 {background:url('../images/main/s3.jpg') center center no-repeat; background-size:cover;}
+.section.s4 {background:url('../images/main/s4.jpg') center center no-repeat; background-size:cover;}
+
+.slogan01 {left:50%; top:50%; margin-left:-215px; padding-top:101px; margin-top:-408px;}
+.slogan01 .slogan01_pic {margin-bottom:44px;}
+.slogan01 .slogan01_btn {display:block; margin:0 auto; background:#003e62; height:58px; line-height:58px; width:229px;}
+
+
+.scroll {display:block; bottom:55px; left:50%; width:58px; height:44px; margin-left:-29px; background:url('../images/main/scroll.png') 0 0 no-repeat; z-index:99; text-indent:-9999px; animation: scrolldown 0.5s ease-in infinite alternate;}
+.more {top:0; right:0; display:block; width:46px; height:46px; background:#009fe9 url('../images/main/sh_plus.png') center center no-repeat; color:transparent; transition:all ease-in-out 0.2s; z-index:1;}
+
+@keyframes scrolldown{
+0% {transform:translate(0, 0);}
+100% {transform:translate(0, 18px);}
+}
+
+
+
+
+#fix-nav {position:fixed; left:87px; top:50%; margin-top:-; z-index:1;}
+#fix-nav li {padding-bottom:40px; position:relative;}
+#fix-nav li:before {position:absolute; content:''; display:block; width:1px; height:100%; background:#1054a0; left:4px; top:0;}
+#fix-nav li:last-child {padding-bottom:0px;}
+#fix-nav li a {display:block; width:9px; height:9px; background:#1054a0; border-radius:50%; text-indent:-99999px; }
+#fix-nav li.active a {position:relative;} 
+#fix-nav li.active a:before {position:absolute; content:''; width:23px; height:23px; background:none; display:block; border-radius:50%; border:1px solid #1054a0; left:-8px; top:-8px;}
+#fix-nav li.active:after {content:''; display:block; background:#1054a0; position:absolute; color:#ffffff; font-weight:400; text-align:center; font-size:13px; width:78px; height:26px; line-height:26px; top:-10px; left:30px; border-radius:3px; letter-spacing:-0.025em;}
+#fix-nav li.poi01.active:after {content:'MAIN';}
+#fix-nav li.poi02.active:after {content:'사회공헌사업';}
+#fix-nav li.poi03.active:after {content:'재단소식';}
+#fix-nav li.poi04.active:after {content:'재단소개';}
+#fix-nav li.active a:after {position:absolute; width:4px; height:7px; background:url('../images/main/nav_arr01.png') 0 0 no-repeat; top:0; left:26px; content:'';}
+.fp-viewing-p4 #fix-nav li:before {background:#1eb5f3;}
+.fp-viewing-p4 #fix-nav li a {background:#1eb5f3;}
+.fp-viewing-p4 #fix-nav li.active a:before {border:1px solid #1eb5f3;}
+.fp-viewing-p4 #fix-nav li.active:after {background:#1eb5f3;}
+.fp-viewing-p4 #fix-nav li.active a:after {background:url('../images/main/nav_arr02.png') 0 0 no-repeat;}
+
+.fp-viewing-4 #fix-nav, .fp-viewing-5 #fix-nav {display:none;}
+
+
+/**/
+.ms_slider_wrap, .ms_slider_wrap .bx-wrapper, .section.s1 .bx-viewport {height:100%;}
+.ms_slider {height:100%;}
+.ms_slider_wrap .ms_slider li {height:100%; background-size:cover !important;}
+.ms_slider_wrap .ms_slider li.ms01 {background:url('../images/main/main_slide01.jpg') center center no-repeat;}
+.ms_slider_wrap .ms_slider li.ms02 {background:url('../images/main/main_slide02.jpg') center center no-repeat;}
+.ms_slider_wrap .ms_slider li.ms03 {background:url('../images/main/main_slide03.jpg') center center no-repeat;}
+.ms_slider_wrap .bx-controls.bx-has-pager {z-index:99; position:absolute; bottom:90px; margin:0 260px;}
+.ms_slider_wrap .bx-pager.bx-default-pager {text-align:center;}
+.ms_slider_wrap .bx-pager.bx-default-pager div {display:inline-block; vertical-align:middle; margin:0 6px;}
+.ms_slider_wrap .bx-pager.bx-default-pager div a {display:block; color:transparent; text-indent:-9999px; width:7px; height:7px; background:#ffffff; border-radius:50%}
+.ms_slider_wrap .bx-pager.bx-default-pager div a.active {width:15px;height:15px; background: #ffb400;}
+
+
+/* 사회공헌사업 */
+.sh_place {background:#ffffff; box-shadow:16px 16px 20px rgba(115, 157, 174, 0.56);}
+.sh_place .sh_txt {width:374px; line-height:1.7; padding:54px 50px 0;}
+.sh_place .sh_txt:before {content:''; display:block; width:91px; height:2px; background:#009fe9; left:-45px; top:176px; position:absolute;}
+.sh_place .sh_btn {color:#ffffff; text-align:center; background:#003e62; display:block; margin:0 auto; width:152px; height:48px; line-height:48px; transition:all ease-in-out 0.2s;}
+.sh_place .sh_btn:hover {background:#035583;}
+.sh_place .sh_txt02 {margin:24px 0 29px; padding-left:15px;}
+.sh_place .sh_plus:hover {background-color:#007eb9;}
+.s2_slider_wrap {width:1048px; margin:44px auto 0; overflow:visible;}
+.s2_slider_wrap .bx-wrapper, .s2_slider_wrap .bx-viewport {overflow: visible !important;}
+.s2 .m_tit .bx-controls {position:absolute; top:102px; right:0;}
+.s2 .m_tit .bx-prev, .s2 .m_tit .bx-next {width:60px; height:60px; display:inline-block; text-indent:-9999px; border-radius:50%; transition:all ease-in-out 0.1s;}
+.s2 .m_tit .bx-prev {background:#ffffff url('../images/main/arr_l_off.png') center center no-repeat; margin-right:16px;}
+.s2 .m_tit .bx-next {background:#ffffff url('../images/main/arr_r_off.png') center center no-repeat;}
+.s2 .m_tit .bx-prev:hover {background:#398fb3 url('../images/main/arr_l_on.png') center center no-repeat;}
+.s2 .m_tit .bx-next:hover {background:#398fb3 url('../images/main/arr_r_on.png') center center no-repeat;}
+.s2 .m_tit .bx-viewport {overflow:visible !important;}
+.sh_pager {text-align:right; font-size:16px; font-weight:bold; right:52px; bottom:48px; background:url('../images/main/dash.png') center center no-repeat; height:31px;}
+.sh_pager span {color:#808080; display:inline-block;  top:12px; position:relative;}
+.sh_pager strong {color:#1054a0; font-weight:bold; margin-right:14px; display:inline-block; top:-3px; position:relative;}
+.sh_cover {left:0; top:0; bottom:0; right:0; background:rgba(142, 204, 230, 0.7); z-index:0; display:none; color:transparent; transition:all ease-in-out 0.1s;}
+.s2_slider li[aria-hidden=true] .sh_cover {display:block;}
+
+/* 재단소식 */
+.s3 .m_tit {margin-bottom:34px;}
+.gonzi {width:336px; height:462px; background:#ffffff; padding:46px 40px 40px; box-shadow:5px 5px 5px rgba(0, 3, 1, 0.1);}
+.gonzi .more {background-color:#f2b625;}
+.gonzi .more:hover {background-color:#d59700;}
+.gz_label {color:#1054a0; position:relative; display:inline-block;}
+.gz_label:after {display:block; width:100%; content:''; height:1px; background:#1054a0; margin-top:2px;}
+.gz_txt {color:#5f5f5f; height:135px; overflow:hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical;}
+.gz_tit {margin:30px 0 20px; overflow:hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; max-height:88px;}
+.gonzi .bx-controls {position:absolute; bottom:40px;}
+.gonzi .bx-prev, .gonzi .bx-next {width:14px; height:12px; display:inline-block; text-indent:-9999px;}
+.gonzi .bx-prev {background:#ffffff url('../images/main/arr_l_off.png') left center no-repeat; position:relative; margin-right:40px;}
+.gonzi .bx-prev:after {content:''; display:block; width:1px; height:22px; background:#d5d5d5; right:-20px; top:-5px; position:absolute;}
+.gonzi .bx-next {background:#ffffff url('../images/main/arr_r_off.png') right center no-repeat;}
+
+.jadan_box {width:682px; height:462px; margin:0 23px; color:#ffffff; box-shadow:5px 5px 5px rgba(0, 3, 1, 0.1);}
+.jadan_box .gz_label {color:#ffffff;}
+.jadan_box .gz_label:after {background:#ffffff;}
+.jadan_box .more {background-color:#1054a0; z-index:99;}
+.jadan_box .more:hover {background-color:#2c70bd;}
+.jd_slider > li {height:462px;}
+.jd_slider > li > div {height:100%; padding:46px 40px; top:0; left:0; bottom:0; right:0;}
+.jd_slider > li .tbc {display:table; width:100%; height:100%; margin-top:-46px;}
+.jd_slider > li .tbci {display:table-cell; vertical-align:middle;}
+.jd_tit {color:#18bbff; overflow:hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp:2; -webkit-box-orient: vertical; height:98px;}
+.jd_tit > span {color:#ffa800;}
+.jd_txt {margin-top:20px; overflow:hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; height:81px;}
+.jadan_box .bx-controls.bx-has-pager {z-index:99; position:absolute; bottom:82px; left:50%; margin-left:-42px;}
+.jadan_box .bx-pager.bx-default-pager {text-align:center;}
+.jadan_box .bx-pager.bx-default-pager div {display:inline-block; vertical-align:middle; margin:0 6px;}
+.jadan_box .bx-pager.bx-default-pager div a {display:block; color:transparent; text-indent:-9999px; width:7px; height:7px; background:#ffffff; border-radius:50%}
+.jadan_box .bx-pager.bx-default-pager div a.active {width:15px;height:15px; background: #1eb5f3;}
+
+.book {box-shadow:5px 5px 5px rgba(0, 3, 1, 0.1); background:url('../images/main/book_back.jpg') 0 0 no-repeat; width:336px; height:462px;}
+.book .book_de {width:100%; height:100%; padding:40px 48px;}
+.book .book_tit {color:#ffffff; font-size:34px; width:32px; position:relative;}
+.book .book_tit:after {content:''; display:block; position:absolute; width:1px; height:114px; background:rgba(255, 255, 255, 0.55); right:-22px; top:43px;}
+.book .book_tit span {font-size:14px; font-family: 'Noto Serif KR'; writing-mode:tb-rl; position:absolute; top:5px; right:-30px;}
+.book img {position:absolute; bottom:0; right:5px;}
+
+.sns_box {margin-top:26px; background:#ffffff; box-shadow:5px 5px 5px rgba(0, 3, 1, 0.1); width:100%; padding:48px 0;}
+.sns_box i {display:inline-block; margin-right:27px; color:transparent; vertical-align:middle;}
+.sns_box li {position:relative; text-align:center;}
+.sns_box li:after {position:absolute; content:''; width:16px; height:9px; background:url('../images/main/sns_dot.png') 0 0 no-repeat; right:-8px; top:50%; margin-top:-4px; display:block;}
+.sns_box li:last-child:after {display:none;}
+.sns_box .sns01 {width:46px; height:38px; background:url('../images/main/bl.png') 0 0 no-repeat;}
+.sns_box .sns02 {width:46px; height:46px; background:url('../images/main/fb.png') 0 0 no-repeat;}
+.sns_box .sns03 {width:46px; height:46px; background:url('../images/main/ins.png') 0 0 no-repeat;}
+.sns_box .sns04 {width:46px; height:46px; background:url('../images/main/hp.png') 0 0 no-repeat;}
+.sns_box li a {color:#131313; transition:all ease-in-out 0.2s;}
+.sns_box li a:hover {opacity: 0.7; filter: alpha(opacity=70);}
+
+/* 재단 소개 */
+.s4 .m_tit {margin-bottom:87px;}
+.info_box_wrap {color:#ffffff;}
+.info_box_wrap .info_tit {color:#ffc842;}
+.info_box_wrap .info_txt {padding:26px 0 36px; color:#9bb9ca;}
+.inf_btn {display:block; margin:0 auto; width:229px; height:58px; line-height:58px; color:#ffffff; background:#f2b625; transition:all ease-in-out 0.2s;}
+.inf_btn:hover {background:#d59700;}
+.ib_wrap_list {margin-top:85px; text-align:center;}
+.ib_wrap_list > li {position:relative;}
+.ib_wrap_list > li:after {content:''; position:absolute; right:0; top:50%; width:1px; height:85px; margin-top:-42px; background:rgba(255, 255, 255, 0.15);}
+.ib_wrap_list > li:last-child:after {display:none;}
+.ib_wrap_list .ib_wrap {display:inline-block; text-align:left; padding-top:16px;}
+.ib_wrap_list .ib_wrap01 {background:url('../images/main/ib01.png') right 0 no-repeat; padding-right:67px;}
+.ib_wrap_list .ib_wrap02 {background:url('../images/main/ib02.png') right 0 no-repeat; padding-right:21px;}
+.ib_wrap_list .ib_wrap03 {background:url('../images/main/ib03.png') right 0 no-repeat; padding-right:38px;}
+.ib_wrap_list .ib_wrap04 {background:url('../images/main/ib04.png') right 0 no-repeat; padding-right:64px;}
+.ib_wrap_list .ib_wrap ft20 {margin-bottom:2px;}
+
+
+/* 하단 배너 */
+.gita {}
+.gita .gita_banner {padding-bottom:93px;}
+.gita .gita_banner_list {margin-left:-49px;}
+.gita .gita_banner_list li {padding-left:49px;}
+.gita .hab_wrap {}
+.gita .hab_wrap .hab_pic {max-width:434px; width:100%; transition:all ease-in-out 0.2s; margin:0 auto;}
+.gita .hab_wrap:hover .hab_pic {box-shadow:16px 16px 20px rgba(163, 172, 175, 0.56); }
+.gita .hab_wrap .hab_txt {margin-top:22px;}
+
+/* */
+.volun_wrap {}
+.volun_wrap li {padding:33px 0; transition:all ease-in-out 0.2s; padding-right:40px;}
+.volun_wrap li .volun_txt {max-width:700px; width:100%;background:url('../images/main/volun_arr.png') center right no-repeat;}
+.volun_wrap li .volun_txt > span {position:relative; display:inline-block; margin-left:30px;}
+.volun_wrap li .volun_txt > span:before {content:''; display:block; width:1px; height:13px; position:absolute; background:rgba(255, 255, 255, 0.67); left:-15px; top:50%; margin-top:-8px;}
+.volun_wrap li.volun01 {background:#27b49b;}
+.volun_wrap li.volun01:hover {background:#0f9880;}
+.volun_wrap li.volun02 {background:#144f97; padding-left:45px;}
+.volun_wrap li.volun02:hover {background:#143f74;}
+.volun_wrap li.volun01 .volun_txt  {float:right;}
+.volun_wrap li.volun02 .volun_txt  {float:left;}
+
+
+
+
+@media screen and (max-width:1400px){
+/* */
+.gita .gita_banner_list {margin-left:-40px;}
+.gita .gita_banner_list li {padding-left:40px;}
+.volun_wrap li.volun01 {padding-left:45px;}
+
+/* 재단소식 */
+.gonzi {width:24%; height:396px;}
+.jadan_box {width:48%; margin:0 2%; height:396px;}
+.jd_slider > li {height:396px;}
+.jd_slider > li > img {height:100%; width:100%;}
+.book {width:24%; height:396px;}
+
+/**/
+.s2 .m_tit .bx-controls {right:40px;}
+
+}
+
+@media screen and (max-width:1279px){	
+.btnon {display:none;}
+
+/**/
+#fix-nav {display:none;}
+
+
+/* 재단소개 */
+.ib_wrap_list > li:nth-child(2n):after {display:none;}
+.ib_wrap_list > li:nth-child(1):before, .ib_wrap_list > li:nth-child(2):before {width:98%; height:1px; content:''; position:absolute; bottom:0; background:rgba(255, 255, 255, 0.15);}
+.ib_wrap_list > li:nth-child(1):before {left:0;}
+.ib_wrap_list > li:nth-child(2):before {right:0;}
+.ib_wrap_list > li:nth-child(1), .ib_wrap_list > li:nth-child(2) {padding-bottom:33px; margin-bottom:33px;}
+.ib_wrap_list > li:after {height:105px; margin-top:-62px;}
+
+/* 재단소식 */
+.sosik_box {max-width:1023px; margin:0 auto; width:100%;}
+.gonzi, .jadan_box, .book {width:100%; float:none;}
+.jadan_box {margin:40px 0;}
+.sns_box {max-width:1023px; width:100%; margin:26px auto 0;}
+.book {background:url('../images/main/book_back_m.jpg') 0 0 no-repeat; background-size:cover; height:240px;}
+.book img {height:240px;}
+.gonzi {height:300px;}
+.gz_txt {height:54px;  -webkit-line-clamp:2;}
+.jd_txt {-webkit-line-clamp:2; height:54px;}
+.jadan_box {height:333px;}
+.jd_slider > li {height:333px;}
+.jadan_box .bx-controls.bx-has-pager {bottom:33px;}
+
+/**/
+.s2_slider_wrap {width:674px;}
+.s2_slider_wrap .sh_pic {float:none; width:100%;}
+.s2_slider_wrap .sh_pic > img {width:100%;}
+.s2_slider_wrap .sh_txt {float:none; width:100%; padding:50px;}
+.sh_place .sh_btn {margin:0;}
+.sh_place .sh_txt:before {display:none;}
+.sh_place .sh_txt02 {padding-left:0px;}
+.s2 .m_tit .bx-controls {right:40px;}
+
+}
+
+@media screen and (max-width:1023px){	
+.fp-section.fp-table, 
+.fp-slide.fp-table,
+.fp-tableCell {display:block !important; height:auto !important;}
+
+/* */
+.section {padding-bottom:100px;}
+.section, .section .fp-tableCell {height:auto !important;}
+.section .fp-tableCell {display:block;}
+.section.s2 {overflow:hidden;}
+
+/* 하단배너 */
+.gita .gita_banner_list {margin-left:0px;}
+.gita .gita_banner_list li {width:100%; padding-left:0px; margin-bottom:35px;}
+.gita .gita_banner_list li:last-child {margin-bottom:0px;}
+
+/* */
+.volun_wrap li {padding:33px 0; text-align:center;}
+.volun_wrap li .volun_txt {background:none;}
+.volun_wrap li .volun_txt > span {display:none;}
+.volun_wrap li.volun02, .volun_wrap li.volun01 {padding-left:0px;}
+
+/* 재단소식 */
+.sns_box li a span, .sns_box li:after {display:none;} 
+.sns_box i {margin-right:0px;}
+.sosik_box { margin:0 auto;}
+
+/**/
+.section.s2 .m_tit .tmw {display:block;}
+.s2_slider > li {margin-right:40px !important;}
+
+
+}
+
+@media screen and (max-width:768px){
+.mdpn {display:none;}	
+	
+.ft46 {font-size:25px;}
+.ft38 {font-size:21px;}
+.ft32 {font-size:21px;}
+.ft30 {font-size:18px;}
+.ft28 {font-size:15px;}
+.ft26 {font-size:20px;}
+.ft24 {font-size:15px;}
+.ft20 {font-size:14px;}
+.ft18 {font-size:14px;}
+.ft16 {font-size:14px;}
+.ft14 {font-size:12px;}
+
+.pt100 {padding-top:60px;}
+
+/**/
+.section {padding-bottom:60px;}
+.section.s1 {height:667px !important;}
+.section.s1 .fp-tableCell {height:100% !important;}
+.m_tit {font-size:25px; padding-top:55px; margin-bottom:25px;}
+.m_tit > .tmw {font-size:19px;}
+
+/**/
+.more {width:37px; height:37px;}
+
+
+/**/
+.gita .gita_banner {padding-bottom:53px;}
+.gita .gita_banner_list li {margin-bottom:33px;}
+.gita .hab_wrap .hab_txt {margin-top:13px;}
+.volun_wrap li {padding:16px 0;}
+
+/* 재단 소개 */
+.s4 .m_tit {margin-bottom:44px;}
+.ib_wrap_list .ib_wrap {background-size:50px auto; padding-top:6px;}
+.ib_wrap_list .ib_wrap01 {padding-right:53px;}
+.ib_wrap_list .ib_wrap02 {padding-right:10px;}
+.ib_wrap_list .ib_wrap03 {padding-right:12px;}
+.ib_wrap_list .ib_wrap04 {padding-right:42px;}
+.ib_wrap_list .ib_wrap .ft50 {font-size:28px;}
+.ib_wrap_list > li:after {height:68px; margin-top:-34px;}
+.ib_wrap_list > li:nth-child(1), .ib_wrap_list > li:nth-child(2) {padding-bottom:15px; margin-bottom:15px;}	
+.ib_wrap_list > li:nth-child(1):after {margin-top:-44px;}
+.inf_btn {height:43px; line-height:43px; width:175px;}
+.info_box_wrap .info_txt {display:none;}
+.info_box_wrap .info_tit {margin-bottom:20px;}
+
+/* 재단소식 */
+.sns_box {padding:21px 0; margin-top:20px;}
+.sns_box i {width:32px !important;  background-size:32px auto !important; height:32px !important;}
+.gz_tit {margin:12px 0 6px; height:29px; max-height:none; -webkit-line-clamp:1;}
+.gonzi {height:204px; padding:25px 20px;}
+.gonzi .bx-controls {bottom:25px;}
+.gz_txt {height:46px;}
+.jadan_box {height:227px; margin:20px 0;}
+.jd_slider > li {height:227px;}
+.jd_slider > li > div {padding:25px 20px;}
+.jd_tit {height:54px;}
+.jd_txt {height:44px; margin-top:8px;}
+.jd_slider > li .tbc {margin-top:-25px;}
+.book {height:163px;}
+.book .book_tit {font-size:25px; width:26px;}
+.book img {height:163px;}
+.book .book_tit span {folnt-size:12px;}
+.book .book_de {padding:20px 35px;}
+
+/**/
+.s2_slider_wrap {width:80%; margin:30px auto 0;}
+.s2_slider > li {margin-right:20px !important;}
+.s2_slider_wrap .sh_txt {padding:25px 20px;}
+.sh_place .sh_btn {width:136px; height:43px; line-height:43px;}
+.sh_place .sh_txt02 {margin:3px 0 20px;}
+.sh_pager {bottom:25px; right:25px; font-size:14px;}
+.sh_pager strong {margin-right:6px;}
+.section.s2 .m_tit .tmw {margin-top:10px;}
+.s2 .m_tit .bx-prev, .s2 .m_tit .bx-next {width:42px; height:42px;}
+.s2 .m_tit .bx-prev {margin-right:10px;}
+.s2 .m_tit .bx-controls {top:57px; right:20px;}
+
+
+}
+ 
+
+
+
+
+
+
+
+
+/**************************************************************************************************************/
+/*!
+ * fullPage 3.0.3
+ * https://github.com/alvarotrigo/fullPage.js
+ *
+ * @license GPLv3 for open source use only
+ * or Fullpage Commercial License for commercial use
+ * http://alvarotrigo.com/fullPage/pricing/
+ *
+ * Copyright (C) 2018 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
+ */
+html.fp-enabled,
+.fp-enabled body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box; /* <=28 */
+    box-sizing: border-box;
+}
+.fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+}
+
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fp-scrollable {
+    overflow: hidden;
+    position: relative;
+}
+.fp-scroller{
+    overflow: hidden;
+}
+.iScrollIndicator{
+    border: 0 !important;
+}
+.fp-notransition {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+.fp-auto-height.fp-section,
+.fp-auto-height .fp-slide,
+.fp-auto-height .fp-tableCell{
+    height: auto !important;
+}
+
+.fp-responsive .fp-auto-height-responsive.fp-section,
+.fp-responsive .fp-auto-height-responsive .fp-slide,
+.fp-responsive .fp-auto-height-responsive .fp-tableCell {
+    height: auto !important;
+}
+
+/*Only display content to screen readers*/
+.fp-sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+  .owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+    /* fix firefox animation glitch */ }
+  .owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+  .owl-carousel .owl-wrapper,
+  .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0); }
+  .owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+  .owl-carousel .owl-nav.disabled,
+  .owl-carousel .owl-dots.disabled {
+    display: none; }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel.owl-loaded {
+    display: block; }
+  .owl-carousel.owl-loading {
+    opacity: 0;
+    display: block; }
+  .owl-carousel.owl-hidden {
+    opacity: 0; }
+  .owl-carousel.owl-refresh .owl-item {
+    visibility: hidden; }
+  .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}
+.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}
+.owl-theme .owl-nav [class*=owl-]:hover{background:#ff860d;color:#FFF;text-decoration:none}
+.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}
+.owl-theme .owl-nav.disabled+.owl-dots{margin-top:30px}.owl-theme 
+.owl-dots .owl-dot{display:inline-block;zoom:1}
+.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:0 5px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{background:#ff860d;}
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media (prefers-reduced-motion) {
+  .animated {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}

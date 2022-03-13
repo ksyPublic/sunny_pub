@@ -1,0 +1,226 @@
+@-webkit-keyframes scale-up-ver-bottom01 {
+      0% {
+        -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #1758a4;
+      }
+      100% {
+        -webkit-transform: scaleY(1);
+                transform: scaleY(1);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #1758a4;
+      }
+    }
+@keyframes scale-up-ver-bottom01 {
+      0% {
+        -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #1758a4;
+      }
+      100% {
+        -webkit-transform: scaleY(1);
+                transform: scaleY(1);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #1758a4;
+      }
+    }
+
+@-webkit-keyframes scale-up-ver-bottom {
+      0% {
+        -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #0c85ae;
+      }
+      100% {
+        -webkit-transform: scaleY(1);
+                transform: scaleY(1);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #0c85ae;
+      }
+    }
+@keyframes scale-up-ver-bottom {
+      0% {
+        -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #0c85ae;
+      }
+      100% {
+        -webkit-transform: scaleY(1);
+                transform: scaleY(1);
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%;
+                background-color: #0c85ae;
+      }
+    }
+    @-webkit-keyframes scale-up-ver-bottom02 {
+          0% {
+            -webkit-transform: scaleY(0);
+                    transform: scaleY(0);
+            -webkit-transform-origin: 0% 100%;
+                    transform-origin: 0% 100%;
+                    background-color: #1259a5;
+          }
+          100% {
+            -webkit-transform: scaleY(1);
+                    transform: scaleY(1);
+            -webkit-transform-origin: 0% 100%;
+                    transform-origin: 0% 100%;
+                    background-color: #1259a5;
+          }
+        }
+    @keyframes scale-up-ver-bottom02 {
+          0% {
+            -webkit-transform: scaleY(0);
+                    transform: scaleY(0);
+            -webkit-transform-origin: 0% 100%;
+                    transform-origin: 0% 100%;
+                    background-color: #1259a5;
+          }
+          100% {
+            -webkit-transform: scaleY(1);
+                    transform: scaleY(1);
+            -webkit-transform-origin: 0% 100%;
+                    transform-origin: 0% 100%;
+                    background-color: #1259a5;
+          }
+        }
+        @-webkit-keyframes scale-up-ver-bottom03 {
+              0% {
+                -webkit-transform: scaleY(0);
+                        transform: scaleY(0);
+                -webkit-transform-origin: 0% 100%;
+                        transform-origin: 0% 100%;
+                        background-color: #0a4491;
+              }
+              100% {
+                -webkit-transform: scaleY(1);
+                        transform: scaleY(1);
+                -webkit-transform-origin: 0% 100%;
+                        transform-origin: 0% 100%;
+                        background-color: #0a4491;
+              }
+            }
+        @keyframes scale-up-ver-bottom03 {
+              0% {
+                -webkit-transform: scaleY(0);
+                        transform: scaleY(0);
+                -webkit-transform-origin: 0% 100%;
+                        transform-origin: 0% 100%;
+                        background-color: #0a4491;
+              }
+              100% {
+                -webkit-transform: scaleY(1);
+                        transform: scaleY(1);
+                -webkit-transform-origin: 0% 100%;
+                        transform-origin: 0% 100%;
+                        background-color: #0a4491;
+              }
+            }
+            @-webkit-keyframes scale-up-ver-bottom04 {
+                  0% {
+                    -webkit-transform: scaleY(0);
+                            transform: scaleY(0);
+                    -webkit-transform-origin: 0% 100%;
+                            transform-origin: 0% 100%;
+                            background-color: #113460;
+                  }
+                  100% {
+                    -webkit-transform: scaleY(1);
+                            transform: scaleY(1);
+                    -webkit-transform-origin: 0% 100%;
+                            transform-origin: 0% 100%;
+                            background-color: #113460;
+                  }
+                }
+            @keyframes scale-up-ver-bottom04 {
+                  0% {
+                    -webkit-transform: scaleY(0);
+                            transform: scaleY(0);
+                    -webkit-transform-origin: 0% 100%;
+                            transform-origin: 0% 100%;
+                            background-color: #113460;
+                  }
+                  100% {
+                    -webkit-transform: scaleY(1);
+                            transform: scaleY(1);
+                    -webkit-transform-origin: 0% 100%;
+                            transform-origin: 0% 100%;
+                            background-color: #113460;
+                  }
+                }
+                @-webkit-keyframes scale-up-ver-bottom05 {
+                      0% {
+                        -webkit-transform: scaleY(0);
+                                transform: scaleY(0);
+                        -webkit-transform-origin: 0% 100%;
+                                transform-origin: 0% 100%;
+                                background-color: #1055a0;
+                      }
+                      100% {
+                        -webkit-transform: scaleY(1);
+                                transform: scaleY(1);
+                        -webkit-transform-origin: 0% 100%;
+                                transform-origin: 0% 100%;
+                                background-color: #1055a0;
+                      }
+                    }
+                @keyframes scale-up-ver-bottom05 {
+                      0% {
+                        -webkit-transform: scaleY(0);
+                                transform: scaleY(0);
+                        -webkit-transform-origin: 0% 100%;
+                                transform-origin: 0% 100%;
+                                background-color: #1055a0;
+                      }
+                      100% {
+                        -webkit-transform: scaleY(1);
+                                transform: scaleY(1);
+                        -webkit-transform-origin: 0% 100%;
+                                transform-origin: 0% 100%;
+                                background-color: #1055a0;
+                      }
+                    }
+
+                    @-webkit-keyframes scale-up-ver-bottom06 {
+                          0% {
+                            -webkit-transform: scaleY(0);
+                                    transform: scaleY(0);
+                            -webkit-transform-origin: 0% 100%;
+                                    transform-origin: 0% 100%;
+                                    background-color: #0e3c71;
+                          }
+                          100% {
+                            -webkit-transform: scaleY(1);
+                                    transform: scaleY(1);
+                            -webkit-transform-origin: 0% 100%;
+                                    transform-origin: 0% 100%;
+                                    background-color: #0e3c71;
+                          }
+                        }
+                    @keyframes scale-up-ver-bottom06 {
+                          0% {
+                            -webkit-transform: scaleY(0);
+                                    transform: scaleY(0);
+                            -webkit-transform-origin: 0% 100%;
+                                    transform-origin: 0% 100%;
+                                    background-color: #0e3c71;
+                          }
+                          100% {
+                            -webkit-transform: scaleY(1);
+                                    transform: scaleY(1);
+                            -webkit-transform-origin: 0% 100%;
+                                    transform-origin: 0% 100%;
+                                    background-color: #0e3c71;
+                          }
+                        }
